@@ -1,18 +1,16 @@
 package com.example.index_market.service;
 
+import com.example.index_market.dto.Dto;
+import com.example.index_market.response.Data;
 import org.springframework.http.ResponseEntity;
-import uz.sh.online_queue.criteria.GenericCriteria;
-import uz.sh.online_queue.dto.Dto;
-import uz.sh.online_queue.response.Data;
 
 import java.io.Serializable;
 import java.util.List;
 
 public interface GenericService <
         D extends Dto,
-        K extends Serializable,
-        C extends GenericCriteria> {
+        K extends Serializable> {
 
-    ResponseEntity<Data<List <D>>> getAll(C criteria);
+    ResponseEntity<Data<List <D>>> getAll();
     ResponseEntity<Data<D>> get (K id);
 }

@@ -1,10 +1,10 @@
 package com.example.index_market.service;
 
+import com.example.index_market.dto.Dto;
+import com.example.index_market.dto.GenericDto;
+import com.example.index_market.entity.BaseEntity;
+import com.example.index_market.response.Data;
 import org.springframework.http.ResponseEntity;
-import uz.sh.online_queue.criteria.GenericCriteria;
-import uz.sh.online_queue.dto.Dto;
-import uz.sh.online_queue.entity.BaseEntity;
-import uz.sh.online_queue.response.Data;
 
 import java.io.Serializable;
 
@@ -13,9 +13,8 @@ public interface GenericCrudService <
         E extends BaseEntity,
         D extends Dto,
         CD extends Dto,
-        UD extends Dto,
-        C extends GenericCriteria,
-        K extends Serializable> extends GenericService<D,K,C>{
+        UD extends GenericDto,
+        K extends Serializable> extends GenericService<D,K>{
 
     ResponseEntity<Data<K>> create(CD createDto);
 
