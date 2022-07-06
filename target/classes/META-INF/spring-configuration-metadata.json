@@ -1,0 +1,82 @@
+{
+  "groups": [
+    {
+      "name": "api.info",
+      "type": "com.example.index_market.properties.OpenApiProperties",
+      "sourceType": "com.example.index_market.properties.OpenApiProperties"
+    },
+    {
+      "name": "service.prop",
+      "type": "com.example.index_market.properties.ServerProperties",
+      "sourceType": "com.example.index_market.properties.ServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "api.info.contact-email",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.OpenApiProperties"
+    },
+    {
+      "name": "api.info.contact-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.OpenApiProperties"
+    },
+    {
+      "name": "api.info.contact-url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.OpenApiProperties"
+    },
+    {
+      "name": "api.info.description",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.OpenApiProperties"
+    },
+    {
+      "name": "api.info.license-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.OpenApiProperties"
+    },
+    {
+      "name": "api.info.license-url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.OpenApiProperties"
+    },
+    {
+      "name": "api.info.terms-of-service",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.OpenApiProperties"
+    },
+    {
+      "name": "api.info.title",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.OpenApiProperties"
+    },
+    {
+      "name": "api.info.version",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.OpenApiProperties"
+    },
+    {
+      "name": "service.prop.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.ServerProperties"
+    },
+    {
+      "name": "service.prop.port",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.ServerProperties"
+    },
+    {
+      "name": "service.prop.protocol",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.ServerProperties"
+    },
+    {
+      "name": "service.prop.url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.index_market.properties.ServerProperties"
+    }
+  ],
+  "hints": []
+}

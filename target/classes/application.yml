@@ -1,0 +1,24 @@
+api:
+  info:
+    title: Online Queue
+    description: Apis required for online queue in clinics
+    version: 1.0
+    terms-of-service: https://unicorn.pdp.uz
+    contact-name: pdp.uz
+    contact-email: shoxistarakhimova28@gmail.com
+    contact-url: https://pdp.uz
+    license-name: Apache 2.0
+    license-url: https://www.apache.org/licenses/LICENSE-2.0.html
+
+service:
+  prop:
+    protocol: http
+    ip: localhost
+    port: 8080
+    url: wing.uz
+
+springdoc:
+  swagger-ui:
+    path: swagger-ui
+  api-docs:
+    path: /api-docs
