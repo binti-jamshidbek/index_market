@@ -1,12 +1,7 @@
 package com.example.index_market.dto.product;
 
 import com.example.index_market.dto.Dto;
-import com.example.index_market.dto.GenericDto;
 import com.example.index_market.entity.product.Category;
-import com.example.index_market.entity.product.Frame;
-import com.example.index_market.enums.product.Status;
-
-import javax.persistence.*;
 
 public class ProductCreateDto implements Dto {
     private Integer count;

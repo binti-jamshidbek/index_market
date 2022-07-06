@@ -1,7 +1,7 @@
 package com.example.index_market.entity.product;
 
 import com.example.index_market.entity.Auditable;
-import com.example.index_market.enums.product.Status;
+import com.example.index_market.type.product.Status;
 import lombok.*;
 
 import javax.persistence.*;

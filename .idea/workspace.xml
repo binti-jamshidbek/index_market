@@ -4,44 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622ed0f0-49e9-4f6f-99d6-a1f1b8ed3bac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="91d47874-ce11-43b3-9dd4-c6e7b8617050" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/intex-market/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intex-market/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intex-market/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intex-market/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intex-market/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intex-market/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intex-market/src/main/java/com/example/intexmarket/IntexMarketApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intex-market/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intex-market/src/test/java/com/example/intexmarket/IntexMarketApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/intex-market" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="ProjectId" id="2BYkXg3l84nbVR4UKU6SNe3rDTz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectId" id="2BVgCbJKuEvBhGY2rxuKxrh35Ds" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
-    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TELEGRAMBOT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/intex-market" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.IntexMarketApplication">
     <configuration name="IndexMarketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="index_market" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.index_market.IndexMarketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntexMarketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="index_market" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.index_market.IndexMarketApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -50,18 +73,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="622ed0f0-49e9-4f6f-99d6-a1f1b8ed3bac" name="Changes" comment="" />
-      <created>1656996540423</created>
+      <changelist id="91d47874-ce11-43b3-9dd4-c6e7b8617050" name="Changes" comment="" />
+      <created>1657090449668</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1656996540423</updated>
-      <workItem from="1656996542402" duration="1506000" />
-      <workItem from="1657088917820" duration="3216000" />
-      <workItem from="1657093681926" duration="35000" />
+      <updated>1657090449668</updated>
+      <workItem from="1657090451203" duration="156000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

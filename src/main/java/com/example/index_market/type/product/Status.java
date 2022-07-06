@@ -1,4 +1,4 @@
-package com.example.index_market.enums.product;
+package com.example.index_market.type.product;
 
 public enum Status {
     SUGGEST,

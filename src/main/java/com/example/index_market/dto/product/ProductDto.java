@@ -2,10 +2,6 @@ package com.example.index_market.dto.product;
 
 import com.example.index_market.dto.GenericDto;
 import com.example.index_market.entity.product.Category;
-import com.example.index_market.entity.product.Frame;
-import com.example.index_market.enums.product.Status;
-
-import javax.persistence.*;
 
 public class ProductDto extends GenericDto {
     private Integer count;
