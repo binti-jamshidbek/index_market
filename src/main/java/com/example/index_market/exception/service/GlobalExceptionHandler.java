@@ -1,6 +1,5 @@
 package com.example.index_market.exception.service;
 
-import com.example.index_market.response.AppError;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ResponseStatus;

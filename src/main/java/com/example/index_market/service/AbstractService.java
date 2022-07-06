@@ -1,14 +1,16 @@
 package com.example.index_market.service;
 
+import com.example.index_market.mapper.BaseMapper;
 import com.example.index_market.mapper.Mapper;
 import com.example.index_market.repository.AbstractRepository;
 
-public abstract class AbstractService <R extends AbstractRepository, M extends Mapper>{
-    protected final R repository;
-    protected final M mapper;
+public abstract class AbstractService <R extends AbstractRepository>{
 
-    public AbstractService(R repository, M mapper) {
+    protected final R repository;
+
+
+    public AbstractService(R repository) {
         this.repository = repository;
-        this.mapper = mapper;
+
     }
 }

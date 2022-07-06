@@ -1,6 +1,5 @@
 package com.example.index_market.exception.hibernate;
 
-import com.example.index_market.response.Data;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

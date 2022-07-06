@@ -3,7 +3,7 @@ package com.example.index_market.service;
 import com.example.index_market.dto.Dto;
 import com.example.index_market.dto.GenericDto;
 import com.example.index_market.entity.BaseEntity;
-import com.example.index_market.response.Data;
+import com.example.index_market.response.ApiResponse;
 import org.springframework.http.ResponseEntity;
 
 import java.io.Serializable;
@@ -16,9 +16,9 @@ public interface GenericCrudService <
         UD extends GenericDto,
         K extends Serializable> extends GenericService<D,K>{
 
-    ResponseEntity<Data<K>> create(CD createDto);
+    ApiResponse create(CD createDto);
 
-    ResponseEntity<Data<D>> update(UD updateDto);
+    ApiResponse update(UD updateDto);
 
-    ResponseEntity<Data<Void>> delete(K id);
+    ApiResponse delete(K id);
 }
